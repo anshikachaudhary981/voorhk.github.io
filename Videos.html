@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style3.css" type="text/css"> 
+ <link rel="stylesheet" href="style5.css" type="text/css"> 
+<style>
+
+h1 {text-align:center;
+font-family:comic sans ms;
+font-size:25px;}
+
+.container{
+        align:left;
+        overflow:hidden;
+        width:300px;/*change this to whatever you want*/
+        height:150px;/*change this to whatever you want*/
+
+        /*Of course, to get the desired effect, the size of the image "<img>" below must be larger than the size mentioned above*/
+    }
+
+    .container:hover{
+        overflow:visible
+    }
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+   <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+  <li><a href="Pics.html"><i class="fa fa-picture-o" aria-hidden="true"> Pics</i></a></li>
+  <li><a class="active" href="Videos.html"><i class="fa fa-video-camera" aria-hidden="true"> Videos</i></a></li>
+  <li><a href="Tour.html"><i class="fa fa-ravelry" aria-hidden="true"> Tour</i></a></li>
+  <li><a href="Contact.html"><i class="fa fa-user-circle" aria-hidden="true"> Contact</i></a></li>
+  </ul>
+
+<br>
+<h1>Hey,What do you think about my singing?</h1><br>
+
+
+<video width="400" height="400" controls>
+  <source src="videos/1.mp4" type="video/mp4" download="song1">
+  Your browser does not support the video tag.
+</video>
+<a href="videos/1.mp4" download="song1.mp4" target="_blank"><img src="pics/dow.png" width="30px" height="30px"></a>
+
+
+<video width="400" height="400" controls>
+  <source src="videos/2.mp4" type="video/mp4" download="song2">
+  Your browser does not support the video tag.
+</video>
+<a href="videos/2.mp4" download="song2.mp4" target="_blank"><img src="pics/dow.png" width="30px" height="30px"></a>
+
+
+<video width="400" height="400" controls>
+  <source src="videos/3.mp4" type="video/mp4" download="song3">
+  Your browser does not support the video tag.
+</video>
+<a href="videos/3.mp4" download="song3.mp4" target="_blank"><img src="pics/dow.png" width="30px" height="30px"></a>
+
+
+</body>
+</html> 
